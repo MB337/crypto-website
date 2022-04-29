@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+	font-family: 'Rubik', sans-serif;
+    background-color: #131b21;
+}
+
+
+::-webkit-scrollbar-track {
+	background: #ff0000; 
+}
+
+.image-coin-left:hover {
+	perspective: 0;
+	transform: rotateX(0) rotateY(0) rotate(0);
+}
+
+.image-coin-left {
+	border-radius: 100%;
+	width: 250px;
+	perspective: 485px;
+	transform: perspective(1000px) rotateX(23deg) rotateY(23deg) rotate(-9.8deg);  
+	transition: .2s;
+}
+
+.image-coin-right:hover {
+	perspective: 0;
+	transform: rotateX(0) rotateY(0) rotate(0);
+}
+
+.image-coin-right{
+	border-radius: 100%;
+	width: 250px;
+	perspective: 485px;
+	transform: perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(9.8deg) translateX(15px);
+	transition: .2s;
+}
+
+.bg-blue{
+	background-color: #6a50ff !important;
+}
+
+.bg-nav{
+	background: #202225 !important;
+}
+
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.float-area {
+	transform: translatey(0px);
+	animation: float 3s ease-in-out infinite;
+}
+
+.w-35{
+	width: 35% !important;
+}
