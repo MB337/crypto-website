@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoWorld</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://widgets.coingecko.com/coingecko-coin-compare-chart-widget.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}">
+    <link rel="icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/5aa97ac8372b96325bb9ad66/1630611849206-KMH9WJKZZVLDP8O8VNU6/BiTA_blockchain_illustration.png">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav fixed-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="https://images.squarespace-cdn.com/content/v1/5aa97ac8372b96325bb9ad66/1630611849206-KMH9WJKZZVLDP8O8VNU6/BiTA_blockchain_illustration.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                CryptoWorld
+            </a>
+            <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="EUR" lcw-color-tx="#ffffff" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="10" ></div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav fixed-top d-lg-none">
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand" href="/">
+                <img src="https://images.squarespace-cdn.com/content/v1/5aa97ac8372b96325bb9ad66/1630611849206-KMH9WJKZZVLDP8O8VNU6/BiTA_blockchain_illustration.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                CryptoWorld
+            </a>
+            <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="EUR" lcw-color-tx="#ffffff" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="10" ></div>
+        </div>
+    </nav>
+    
+    <main class="mt-5 py-5" style="margin-top: 125px;">
+        <div class="container pt-5">
+            <div class="text-center">
+                <img class="w-100 custom-rounded" src="https://www.rfactornews.com/wp-content/uploads/2018/08/wp2054297.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <p class="fw-bold fs-2 mt-4 text-white" id="whatseth"><u># Cos'è Bitcoin?</u><a href="https://github.com/bitcoin/bitcoin" target="_blank" class="ms-3 btn btn-dark rounded border"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"> <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path> </svg> Bitcoin </a></p>
+                <p class="text-white fs-4">Il Bitcoin è una delle prime implementazioni di un concetto definito come criptovaluta, descritto per la prima volta nel 1998 da Wei Dai su una mailing list. Il Bitcoin (simbolo: ₿, codice: BTC o XBT) è una criptovaluta e un sistema di pagamento valutario internazionale creato nel 2009 da un anonimo inventore (o gruppo di inventori), noto con lo pseudonimo di Satoshi Nakamoto, che sviluppò un'idea da lui stesso presentata su Internet a fine 2008. Per convenzione se il termine Bitcoin è utilizzato con l'iniziale maiuscola si riferisce alla tecnologia e alla rete, mentre se minuscola (bitcoin) si riferisce alla valuta in sé.</p>
+                <p class="fw-bold fs-2 mt-4 text-white" id="caratteristiche"><u># Tecnologia</u></p>
+                <p class="text-white fs-4">Ogni utente che partecipa alla rete Bitcoin possiede un portafoglio che contiene un numero arbitrario di coppie di chiavi crittografiche. Le chiavi pubbliche, o "indirizzi bitcoin", fungono da punti d'invio o ricezione per tutti i pagamenti. Il possesso di bitcoin implica che un utente può spendere solo i bitcoin associati con uno specifico indirizzo. La corrispondente chiave privata serve ad apporre una firma digitale a ogni transazione facendo in modo che sia autorizzato al pagamento solo l'utente proprietario di quella moneta. La rete verifica la firma utilizzando la chiave pubblica.</p>
+                <p class="fw-bold fs-2 mt-4 text-white" id="nft"><u># Curiosità</u></p>
+                <p class="text-white fs-4">Secondo digiconomist, sito citato da diverse testate giornalistiche, una singola transazione in Bitcoin consuma quanto 1 122 196 pagamenti con una carta Visa, equivalenti a 36 giorni di consumo elettrico di una casa di una famiglia media americana e pari a guardare youtube per 84 388 ore. Si stima, secondo diverse testate indipendenti, tra cui CBS che solo il 40% dell'energia consumata dalle cryptovalute sia da fonti rinnovabili, e il restante 60% provenga da combustibili fossili. Se il prezzo delle cryptovalute salisse, salirebbero anche i consumi elettrici, al momento pari a quelli dell'Argentina per il solo Bitcoin. Uno studio accademico pubblicato nel 2018 su Nature, una delle più importanti riviste scientifiche, affermò che era necessaria più del doppio dell'energia per estrarre 1 dollaro in bitcoin rispetto a un dollaro di oro, argento o platino; Un altro studio accademico affermò come nell'anno 2019 il consumo di elettricità del bitcoin si è quadruplicato rispetto all'anno precedente. Elon Musk nel maggio 2021 ha affermato che Tesla non avrebbe più accettato pagamenti in bitcoin a causa dell'elevato inquinamento di carbonio prodotto dalla transazione, aggiungendo che il carbone, tra tutte, è la fonte di energia più dannosa per l'ambiente, anche la Banca Centrale Europea ha definito, in un suo comunicato ufficiale, che l'inquinamento da carbonio che provoca il bitcoin è "esorbitante".</p>
+                <div class="d-flex justify-content-center">
+                    <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Tesla &amp; Bitcoin <a href="https://t.co/YSswJmVZhP">pic.twitter.com/YSswJmVZhP</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1392602041025843203?ref_src=twsrc%5Etfw">May 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="position-relative ">
+        {#
+        <div class="position-absolute w-100">
+            <svg id="svg" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>           .path-0{             animation:pathAnim-0 4s;             animation-timing-function: linear;             animation-iteration-count: infinite;           }           @keyframes pathAnim-0{             0%{               d: path("M 0,500 C 0,500 0,250 0,250 C 112.03571428571428,284.4642857142857 224.07142857142856,318.92857142857144 360,314 C 495.92857142857144,309.07142857142856 655.7500000000001,264.75 760,241 C 864.2499999999999,217.25 912.9285714285713,214.07142857142858 1017,219 C 1121.0714285714287,223.92857142857142 1280.5357142857142,236.96428571428572 1440,250 C 1440,250 1440,500 1440,500 Z");             }             25%{               d: path("M 0,500 C 0,500 0,250 0,250 C 161.35714285714283,242.46428571428572 322.71428571428567,234.92857142857142 424,237 C 525.2857142857143,239.07142857142858 566.5,250.75 667,245 C 767.5,239.25 927.2857142857142,216.07142857142858 1066,214 C 1204.7142857142858,211.92857142857142 1322.357142857143,230.96428571428572 1440,250 C 1440,250 1440,500 1440,500 Z");             }             50%{               d: path("M 0,500 C 0,500 0,250 0,250 C 141.96428571428572,265.42857142857144 283.92857142857144,280.8571428571429 408,260 C 532.0714285714286,239.14285714285714 638.2500000000001,182.00000000000003 744,180 C 849.7499999999999,177.99999999999997 955.0714285714287,231.14285714285717 1071,252 C 1186.9285714285713,272.85714285714283 1313.4642857142858,261.42857142857144 1440,250 C 1440,250 1440,500 1440,500 Z");             }             75%{               d: path("M 0,500 C 0,500 0,250 0,250 C 109.32142857142858,277.75 218.64285714285717,305.5 320,324 C 421.35714285714283,342.5 514.75,351.75 653,343 C 791.25,334.25 974.3571428571429,307.5 1113,289 C 1251.642857142857,270.5 1345.8214285714284,260.25 1440,250 C 1440,250 1440,500 1440,500 Z");             }             100%{               d: path("M 0,500 C 0,500 0,250 0,250 C 112.03571428571428,284.4642857142857 224.07142857142856,318.92857142857144 360,314 C 495.92857142857144,309.07142857142856 655.7500000000001,264.75 760,241 C 864.2499999999999,217.25 912.9285714285713,214.07142857142858 1017,219 C 1121.0714285714287,223.92857142857142 1280.5357142857142,236.96428571428572 1440,250 C 1440,250 1440,500 1440,500 Z");             }           }</style><defs><linearGradient id="gradient" x1="81%" y1="11%" x2="19%" y2="89%"><stop offset="5%" stop-color="#6a50ffff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,500 C 0,500 0,250 0,250 C 112.03571428571428,284.4642857142857 224.07142857142856,318.92857142857144 360,314 C 495.92857142857144,309.07142857142856 655.7500000000001,264.75 760,241 C 864.2499999999999,217.25 912.9285714285713,214.07142857142858 1017,219 C 1121.0714285714287,223.92857142857142 1280.5357142857142,236.96428571428572 1440,250 C 1440,250 1440,500 1440,500 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>    
+        </div>
+        #}
+    </footer>
+</body>
+</html>

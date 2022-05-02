@@ -65,3 +65,7 @@ body{
 .w-35{
 	width: 35% !important;
 }
+
+.custom-rounded{
+	border-radius: 10px !important;
+}
